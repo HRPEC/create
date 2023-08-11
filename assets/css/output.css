@@ -1313,6 +1313,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.outline{
+  outline-style: solid;
+}
+
 .drop-shadow-md{
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1623,16 +1627,16 @@ video {
     justify-content: space-between;
   }
 
-  .tablet\:bg-\[url\(\'\/dist\/about-images\/about-us-bg\.svg\'\)\]{
-    background-image: url('/dist/about-images/about-us-bg.svg');
+  .tablet\:bg-\[url\(\'\/assets\/images\/about-images\/about-us-bg\.svg\'\)\]{
+    background-image: url('/assets/images/about-images/about-us-bg.svg');
+  }
+
+  .tablet\:bg-\[url\(\'\/assets\/images\/donate-images\/donate-bg\.svg\'\)\]{
+    background-image: url('/assets/images/donate-images/donate-bg.svg');
   }
 
   .tablet\:bg-\[url\(\'\/dist\/contact-us-images\/contact-us-bg\.svg\'\)\]{
     background-image: url('/dist/contact-us-images/contact-us-bg.svg');
-  }
-
-  .tablet\:bg-\[url\(\'\/dist\/donate-images\/donate-bg\.svg\'\)\]{
-    background-image: url('/dist/donate-images/donate-bg.svg');
   }
 
   .tablet\:bg-gradient-to-tl{
@@ -1641,10 +1645,6 @@ video {
 
   .tablet\:bg-gradient-to-tr{
     background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-  }
-
-  .tablet\:bg-\[url\(\'\/assets\/images\/about-images\/about-us-bg\.svg\'\)\]{
-    background-image: url('/assets/images/about-images/about-us-bg.svg');
   }
 
   .tablet\:p-0{
