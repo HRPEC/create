@@ -1647,6 +1647,10 @@ video {
     background-image: linear-gradient(to top right, var(--tw-gradient-stops));
   }
 
+  .tablet\:bg-\[url\(\'\/assets\/images\/contact-us-images\/contact-us-bg\.svg\'\)\]{
+    background-image: url('/assets/images/contact-us-images/contact-us-bg.svg');
+  }
+
   .tablet\:p-0{
     padding: 0px;
   }
