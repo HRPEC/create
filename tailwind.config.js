@@ -28,7 +28,8 @@ module.exports = {
         'ribbon': "url('/assets/images/ribbon-bg.svg')"
       },
       fontFamily: {
-        'poppins': ['Poppins']
+        'poppins': ['Poppins'],
+        'merriweather': ['Merriweather']
       },
       colors:{
         'f-blue': '#1B6580',
