@@ -1631,12 +1631,12 @@ video {
     background-image: url('/assets/images/about-images/about-us-bg.svg');
   }
 
-  .tablet\:bg-\[url\(\'\/assets\/images\/donate-images\/donate-bg\.svg\'\)\]{
-    background-image: url('/assets/images/donate-images/donate-bg.svg');
+  .tablet\:bg-\[url\(\'\/assets\/images\/contact-us-images\/contact-us-bg\.svg\'\)\]{
+    background-image: url('/assets/images/contact-us-images/contact-us-bg.svg');
   }
 
-  .tablet\:bg-\[url\(\'\/dist\/contact-us-images\/contact-us-bg\.svg\'\)\]{
-    background-image: url('/dist/contact-us-images/contact-us-bg.svg');
+  .tablet\:bg-\[url\(\'\/assets\/images\/donate-images\/donate-bg\.svg\'\)\]{
+    background-image: url('/assets/images/donate-images/donate-bg.svg');
   }
 
   .tablet\:bg-gradient-to-tl{
@@ -1647,8 +1647,8 @@ video {
     background-image: linear-gradient(to top right, var(--tw-gradient-stops));
   }
 
-  .tablet\:bg-\[url\(\'\/assets\/images\/contact-us-images\/contact-us-bg\.svg\'\)\]{
-    background-image: url('/assets/images/contact-us-images/contact-us-bg.svg');
+  .tablet\:bg-\[url\(\'\/assets\/images\/ribbon-background\.svg\'\)\]{
+    background-image: url('/assets/images/ribbon-background.svg');
   }
 
   .tablet\:p-0{
