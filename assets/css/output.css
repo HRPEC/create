@@ -730,6 +730,18 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-\.20{
+  margin-top: 20%;
+}
+
+.-mb-2{
+  margin-bottom: -0.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1637,8 +1649,8 @@ video {
     justify-content: flex-start;
   }
 
-  .tablet\:justify-end{
-    justify-content: flex-end;
+  .tablet\:justify-center{
+    justify-content: center;
   }
 
   .tablet\:justify-between{
@@ -2071,6 +2083,14 @@ video {
     padding: 2rem;
   }
 
+  .desktop\:p-4{
+    padding: 1rem;
+  }
+
+  .desktop\:p-2{
+    padding: 0.5rem;
+  }
+
   .desktop\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -2203,6 +2223,10 @@ video {
 
   .desktop\:pt-8{
     padding-top: 2rem;
+  }
+
+  .desktop\:text-10xl{
+    font-size: 9rem;
   }
 
   .desktop\:text-2xl{

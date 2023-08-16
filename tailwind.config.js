@@ -82,7 +82,8 @@ module.exports = {
         '8.2xl': '6.2rem',
         '8.4xl': '6.4rem',
         '8.5xl': '6.5rem',
-        '8.6xl': '6.6rem'
+        '8.6xl': '6.6rem',
+        '10xl': '9rem'
       },
       screens: {
         'phone': '320px',
